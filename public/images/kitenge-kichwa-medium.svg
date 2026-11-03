@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Medium structured kitenge bag">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#f6f1e9"/><stop offset="1" stop-color="#e6dccb"/></linearGradient>
+    <radialGradient id="glow" cx="0.34" cy="0.22" r="0.62"><stop offset="0" stop-color="#fffdf8" stop-opacity="0.95"/><stop offset="1" stop-color="#fffdf8" stop-opacity="0"/></radialGradient>
+    <pattern id="kitenge" width="96" height="96" patternUnits="userSpaceOnUse">
+      <rect width="96" height="96" fill="#5b3a72"/>
+      <path d="M48 6 L82 48 L48 90 L14 48 Z" fill="#e8b64a"/>
+      <path d="M48 30 L64 48 L48 66 L32 48 Z" fill="#8c2f2a"/>
+      <circle cx="48" cy="48" r="6" fill="#f3e6cf"/>
+      <circle cx="0" cy="0" r="7" fill="#3f6b4a"/><circle cx="96" cy="0" r="7" fill="#3f6b4a"/>
+      <circle cx="0" cy="96" r="7" fill="#3f6b4a"/><circle cx="96" cy="96" r="7" fill="#3f6b4a"/>
+    </pattern>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.2"/><stop offset="0.42" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.16"/></linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <ellipse cx="400" cy="804" rx="176" ry="30" fill="#c2ac8c" opacity="0.6" filter="url(#soft)"/>
+  <path d="M352 520 C352 448 448 448 448 520" fill="none" stroke="#6b4a2b" stroke-width="15" stroke-linecap="round"/>
+  <path d="M286 512 Q400 540 514 512 L526 758 Q528 778 506 778 H294 Q272 778 274 758 Z" fill="url(#kitenge)"/>
+  <path d="M286 512 Q400 540 514 512 L526 758 Q528 778 506 778 H294 Q272 778 274 758 Z" fill="url(#shade)"/>
+  <path d="M286 512 Q400 540 514 512" fill="none" stroke="#6b4a2b" stroke-width="6"/>
+  <rect x="376" y="592" width="48" height="38" rx="7" fill="#6b4a2b"/>
+  <circle cx="400" cy="611" r="6" fill="#e8b64a"/>
+  <path d="M290 548 Q400 578 510 548" fill="none" stroke="#f3e6cf" stroke-width="2.5" stroke-dasharray="8 8" opacity="0.45"/>
+</svg>

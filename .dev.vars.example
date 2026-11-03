@@ -1,0 +1,30 @@
+# Copy to .dev.vars for local development. Never commit .dev.vars.
+#
+# Everything here is optional. With no M-Pesa values the checkout shows the
+# manual "pay to this paybill / till" instructions instead of an STK prompt.
+
+STORE_NAME=Kaderee's Enterprises
+STORE_EMAIL=hello@kaderee.co.ke
+STORE_PHONE=+254 700 000 000
+
+# Manual M-Pesa destination (shown when Daraja is not configured, and on the
+# receipt page either way).
+MPESA_PAYBILL=247247
+MPESA_TILL=
+MPESA_ACCOUNT_NAME=Francis Ndereba
+MPESA_ACCOUNT_NUMBER=0723266957
+
+# Bank transfer details.
+BANK_NAME=Equity Bank
+BANK_ACCOUNT_NAME=Kaderee's Enterprises
+BANK_ACCOUNT_NUMBER=0170000000000
+BANK_BRANCH=Westlands, Nairobi
+
+# Safaricom Daraja. Fill these in to send real STK payment prompts.
+# MPESA_ENV=sandbox
+# MPESA_CONSUMER_KEY=
+# MPESA_CONSUMER_SECRET=
+# MPESA_SHORTCODE=
+# MPESA_PASSKEY=
+# MPESA_TRANSACTION_TYPE=CustomerPayBillOnline
+# MPESA_CALLBACK_SECRET=

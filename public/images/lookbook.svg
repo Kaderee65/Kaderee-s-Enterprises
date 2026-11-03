@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Three kitenge handbags arranged on a studio shelf">
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="0.5" y2="1"><stop offset="0" stop-color="#f6f1e8"/><stop offset="1" stop-color="#e6dac6"/></linearGradient>
+    <radialGradient id="sun" cx="0.72" cy="0.12" r="0.7"><stop offset="0" stop-color="#fffdf7" stop-opacity="0.98"/><stop offset="1" stop-color="#fffdf7" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shelf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0e7d8"/><stop offset="1" stop-color="#d8c9b1"/></linearGradient>
+    <pattern id="k-green" width="96" height="96" patternUnits="userSpaceOnUse">
+      <rect width="96" height="96" fill="#2f5c4a"/>
+      <path d="M48 6 L82 48 L48 90 L14 48 Z" fill="none" stroke="#e8b64a" stroke-width="8"/>
+      <path d="M48 26 L64 48 L48 70 L32 48 Z" fill="#b4552f"/>
+      <circle cx="48" cy="48" r="6" fill="#f3e6cf"/>
+    </pattern>
+    <pattern id="k-red" width="96" height="96" patternUnits="userSpaceOnUse">
+      <rect width="96" height="96" fill="#8c2f2a"/>
+      <path d="M0 48 Q24 16 48 48 Q72 80 96 48" fill="none" stroke="#e8b64a" stroke-width="9"/>
+      <circle cx="24" cy="22" r="6" fill="#f3e6cf"/>
+      <circle cx="72" cy="74" r="6" fill="#f3e6cf"/>
+    </pattern>
+    <pattern id="k-purple" width="88" height="88" patternUnits="userSpaceOnUse">
+      <rect width="88" height="88" fill="#5b3a72"/>
+      <path d="M44 5 L74 44 L44 83 L14 44 Z" fill="#e8b64a"/>
+      <path d="M44 27 L59 44 L44 61 L29 44 Z" fill="#1d3d68"/>
+      <circle cx="44" cy="44" r="5" fill="#f3e6cf"/>
+    </pattern>
+    <linearGradient id="fold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.2"/><stop offset="0.45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.15"/></linearGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="softlight" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#room)"/>
+  <rect width="1200" height="800" fill="url(#sun)"/>
+  <path d="M760 0 L1080 0 L980 800 L640 800 Z" fill="#fffaf0" opacity="0.4" filter="url(#softlight)"/>
+  <rect x="100" y="590" width="1000" height="20" rx="5" fill="url(#shelf)"/>
+  <rect x="100" y="610" width="1000" height="190" fill="#e2d6c2"/>
+  <ellipse cx="600" cy="600" rx="430" ry="24" fill="#c2ab8a" opacity="0.45" filter="url(#sh)"/>
+
+  <!-- left: small crossbody, green kitenge -->
+  <g transform="translate(180 352)">
+    <path d="M92 132 C50 40 130 -10 210 20" fill="none" stroke="#6b4a2b" stroke-width="11" stroke-linecap="round"/>
+    <path d="M222 154 C266 60 214 8 210 20" fill="none" stroke="#6b4a2b" stroke-width="11" stroke-linecap="round"/>
+    <rect x="46" y="126" width="176" height="120" rx="24" fill="url(#k-green)"/>
+    <rect x="46" y="126" width="176" height="120" rx="24" fill="url(#fold)"/>
+    <path d="M46 166 H222" stroke="#6b4a2b" stroke-width="5"/>
+    <rect x="116" y="158" width="34" height="24" rx="6" fill="#6b4a2b"/>
+  </g>
+
+  <!-- centre: big map tote, red kitenge -->
+  <g transform="translate(500 286)">
+    <path d="M62 194 C62 76 232 76 232 194" fill="none" stroke="#6b4a2b" stroke-width="14" stroke-linecap="round"/>
+    <path d="M22 180 H272 L288 286 Q289 306 266 306 H28 Q5 306 6 286 Z" fill="url(#k-red)"/>
+    <path d="M22 180 H272 L288 286 Q289 306 266 306 H28 Q5 306 6 286 Z" fill="url(#fold)"/>
+    <path d="M22 180 H272" stroke="#6b4a2b" stroke-width="7"/>
+    <path d="M34 206 H260" stroke="#f3e6cf" stroke-width="2.5" stroke-dasharray="9 9" opacity="0.5"/>
+  </g>
+
+  <!-- right: medium kichwa, purple kitenge -->
+  <g transform="translate(836 330)">
+    <path d="M62 148 C62 88 158 88 158 148" fill="none" stroke="#6b4a2b" stroke-width="12" stroke-linecap="round"/>
+    <path d="M26 138 Q110 162 194 138 L204 246 Q205 264 186 264 H34 Q15 264 16 246 Z" fill="url(#k-purple)"/>
+    <path d="M26 138 Q110 162 194 138 L204 246 Q205 264 186 264 H34 Q15 264 16 246 Z" fill="url(#fold)"/>
+    <path d="M26 138 Q110 162 194 138" fill="none" stroke="#6b4a2b" stroke-width="6"/>
+    <rect x="90" y="186" width="40" height="30" rx="6" fill="#6b4a2b"/>
+  </g>
+</svg>

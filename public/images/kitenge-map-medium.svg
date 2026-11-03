@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Medium kitenge print tote bag">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#f6f1e9"/><stop offset="1" stop-color="#e6dccb"/></linearGradient>
+    <radialGradient id="glow" cx="0.34" cy="0.22" r="0.62"><stop offset="0" stop-color="#fffdf8" stop-opacity="0.95"/><stop offset="1" stop-color="#fffdf8" stop-opacity="0"/></radialGradient>
+    <pattern id="kitenge" width="104" height="104" patternUnits="userSpaceOnUse">
+      <rect width="104" height="104" fill="#8c2f2a"/>
+      <path d="M0 52 Q26 18 52 52 Q78 86 104 52" fill="none" stroke="#e8b64a" stroke-width="10"/>
+      <path d="M52 0 V104" stroke="#f3e6cf" stroke-width="3" opacity="0.7"/>
+      <circle cx="26" cy="24" r="8" fill="#f3e6cf"/>
+      <circle cx="78" cy="80" r="8" fill="#f3e6cf"/>
+      <rect x="0" y="0" width="104" height="9" fill="#3f6b4a"/>
+      <rect x="0" y="95" width="104" height="9" fill="#3f6b4a"/>
+    </pattern>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.2"/><stop offset="0.4" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.15"/></linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="24"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <ellipse cx="404" cy="800" rx="196" ry="34" fill="#c2ac8c" opacity="0.6" filter="url(#soft)"/>
+  <path d="M334 512 C334 404 466 404 466 512" fill="none" stroke="#6b4a2b" stroke-width="14" stroke-linecap="round"/>
+  <path d="M282 500 H518 L532 760 Q533 780 512 780 H288 Q267 780 268 760 Z" fill="url(#kitenge)"/>
+  <path d="M282 500 H518 L532 760 Q533 780 512 780 H288 Q267 780 268 760 Z" fill="url(#shade)"/>
+  <path d="M282 500 H518" stroke="#6b4a2b" stroke-width="7"/>
+  <path d="M292 526 H508" stroke="#f3e6cf" stroke-width="2.5" stroke-dasharray="9 9" opacity="0.5"/>
+  <path d="M282 500 L268 758" stroke="#5c1d1a" stroke-width="3.5" opacity="0.45"/>
+  <path d="M518 500 L532 758" stroke="#5c1d1a" stroke-width="3.5" opacity="0.45"/>
+  <rect x="386" y="496" width="36" height="24" rx="8" fill="#6b4a2b" opacity="0.92"/>
+  <circle cx="404" cy="508" r="4" fill="#e8b64a"/>
+</svg>

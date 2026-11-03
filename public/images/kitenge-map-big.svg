@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Large kitenge print tote bag">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#f6f1e9"/><stop offset="1" stop-color="#e6dccb"/></linearGradient>
+    <radialGradient id="glow" cx="0.34" cy="0.22" r="0.62"><stop offset="0" stop-color="#fffdf8" stop-opacity="0.95"/><stop offset="1" stop-color="#fffdf8" stop-opacity="0"/></radialGradient>
+    <pattern id="kitenge" width="118" height="118" patternUnits="userSpaceOnUse">
+      <rect width="118" height="118" fill="#1d3d68"/>
+      <path d="M59 8 L92 59 L59 110 L26 59 Z" fill="#d99a2b"/>
+      <path d="M59 34 L76 59 L59 84 L42 59 Z" fill="#b4552f"/>
+      <circle cx="59" cy="59" r="7" fill="#f3e6cf"/>
+      <circle cx="0" cy="0" r="9" fill="#f3e6cf"/><circle cx="118" cy="0" r="9" fill="#f3e6cf"/>
+      <circle cx="0" cy="118" r="9" fill="#f3e6cf"/><circle cx="118" cy="118" r="9" fill="#f3e6cf"/>
+      <rect x="0" y="51" width="10" height="16" fill="#3f6b4a"/>
+      <rect x="108" y="51" width="10" height="16" fill="#3f6b4a"/>
+    </pattern>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.22"/><stop offset="0.4" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.16"/></linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <ellipse cx="404" cy="808" rx="236" ry="40" fill="#c2ac8c" opacity="0.62" filter="url(#soft)"/>
+  <path d="M312 452 C312 320 488 320 488 452" fill="none" stroke="#6b4a2b" stroke-width="16" stroke-linecap="round"/>
+  <path d="M242 442 H558 L574 768 Q575 790 552 790 H248 Q225 790 226 768 Z" fill="url(#kitenge)"/>
+  <path d="M242 442 H558 L574 768 Q575 790 552 790 H248 Q225 790 226 768 Z" fill="url(#shade)"/>
+  <path d="M242 442 H558" stroke="#6b4a2b" stroke-width="8"/>
+  <path d="M252 470 H548" stroke="#f3e6cf" stroke-width="2.5" stroke-dasharray="9 9" opacity="0.55"/>
+  <path d="M242 442 L226 766" stroke="#122744" stroke-width="4" opacity="0.5"/>
+  <path d="M558 442 L574 766" stroke="#122744" stroke-width="4" opacity="0.5"/>
+  <path d="M404 442 V790" stroke="#122744" stroke-width="3" opacity="0.28"/>
+  <rect x="384" y="446" width="40" height="26" rx="8" fill="#6b4a2b" opacity="0.92"/>
+  <circle cx="404" cy="459" r="4" fill="#e8b64a"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Plain canvas tot bag with leather handles">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#f6f1e9"/><stop offset="1" stop-color="#e6dccb"/></linearGradient>
+    <radialGradient id="glow" cx="0.34" cy="0.22" r="0.62"><stop offset="0" stop-color="#fffdf8" stop-opacity="0.95"/><stop offset="1" stop-color="#fffdf8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="canvas" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#d9cbb0"/><stop offset="0.55" stop-color="#c9b795"/><stop offset="1" stop-color="#a99070"/></linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.13"/><stop offset="0.45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.1"/></linearGradient>
+    <pattern id="weave" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="none"/>
+      <path d="M0 7 H14 M7 0 V14" stroke="#a08b69" stroke-width="1.2" opacity="0.32"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <ellipse cx="404" cy="806" rx="226" ry="40" fill="#c2ac8c" opacity="0.6" filter="url(#soft)"/>
+  <path d="M320 470 C320 336 480 336 480 470" fill="none" stroke="#7a5533" stroke-width="18" stroke-linecap="round"/>
+  <path d="M250 456 H550 L566 766 Q567 786 546 786 H254 Q233 786 234 766 Z" fill="url(#canvas)"/>
+  <path d="M250 456 H550 L566 766 Q567 786 546 786 H254 Q233 786 234 766 Z" fill="url(#weave)"/>
+  <path d="M250 456 H550 L566 766 Q567 786 546 786 H254 Q233 786 234 766 Z" fill="url(#shade)"/>
+  <path d="M250 456 H550" stroke="#a9997d" stroke-width="5"/>
+  <path d="M268 486 H532" stroke="#8d6a44" stroke-width="3" stroke-dasharray="10 9" opacity="0.45"/>
+  <rect x="332" y="592" width="136" height="92" rx="10" fill="#b8a383" opacity="0.55"/>
+  <path d="M332 592 H468" stroke="#8b7355" stroke-width="3" opacity="0.7"/>
+  <path d="M250 456 H550 L566 766 Q567 786 546 786 H254 Q233 786 234 766 Z" fill="none" stroke="#8b7355" stroke-width="3" opacity="0.45"/>
+</svg>
